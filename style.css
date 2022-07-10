@@ -1,0 +1,74 @@
+body {
+        margin: 0;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        text-align: center;
+}
+.container{
+    border: 5px solid white;
+    box-shadow: 10000px black;
+    background-color: rgba(32,41,56,255);
+    border-radius: 10px;
+    height: 380px;
+    width: 400px;
+    
+}
+.holder{
+    margin-top:50px ;
+    margin-left:20px ;
+    
+}
+.text1,.text2,.text3,hr{
+    text-align: left;
+}
+.text1{
+    font-size:30px ;
+    color: white;
+    margin-bottom:0px ;
+}
+.text2{
+    font-size:30px ;
+    color: rgba(86,216,141,255);
+    margin-top:-10px ;
+    margin-bottom:0px ;
+}
+.text3{
+    color: rgba(151,158,166,255);
+    margin-top:0px 
+}
+#pass-btn,#reset-btn{
+    color: white;
+    background: rgba(86,216,141,255);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    width: 170px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    float: left;
+}
+#reset-btn{
+    background: red;
+    width: 100px;
+    float: none;
+}
+hr{
+    opacity: 40%;
+    width: 20em;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.pass{
+    width:150px;
+    height: 30px;
+    text-align: center;
+    color: rgba(15,185,130,255);
+    background-color: rgba(40,52,73,255);
+    border-radius: 5px;
+    border: none;
+    
+}
