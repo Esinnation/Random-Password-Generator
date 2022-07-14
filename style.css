@@ -21,21 +21,21 @@ body {
     margin-left:20px ;
     
 }
-.text1,.text2,.text3,hr{
+.holder__text1,.holder__text2,.holder__text3,hr{
     text-align: left;
 }
-.text1{
+.holder__text1{
     font-size:30px ;
     color: white;
     margin-bottom:0px ;
 }
-.text2{
+.holder__text2{
     font-size:30px ;
     color: rgba(86,216,141,255);
     margin-top:-10px ;
     margin-bottom:0px ;
 }
-.text3{
+.holder__text3{
     color: rgba(151,158,166,255);
     margin-top:0px 
 }
